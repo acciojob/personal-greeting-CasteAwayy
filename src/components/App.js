@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import React from 'react';
 const App = () => {
   const [name, setName] = useState("");
   function handleInput(e) {
